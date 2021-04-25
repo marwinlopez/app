@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Londrina+Shadow&family=Rubik:wght@300&display=swap');
+.footer-social-media{
+    display: inline-flex;
+    margin: 0 auto;
+  }
+  
+.App-link-social-media{
+    color: rgb(107, 214, 7);
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  a:link,
+  a:hover,
+  a:active,
+  a:visited {
+    text-decoration: none;
+    color: green;
+  }
+  
+  
+  .link-social-media{
+    display: grid;
+    padding: 0px 5px;
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Londrina Shadow', cursive;
+  }
+  .icon-social-media{
+    font-size: 50px;
+    color: #b1a8a8;
+  }
+
+footer{
+    background: #181819;
+    /* position: fixed; */
+      bottom: 0px;
+      text-align: center;
+      width: 100%;
+  }
+  
+  footer h2{
+    color: rgb(107, 214, 7);
+    font-family: 'Londrina Shadow', cursive;
+    text-shadow: 0px 1px 10px rgba(255, 151, 31, 0.69)
+  }
+
+  .btn-candela{
+    width: 20%; 
+    min-height: 20%; 
+    background: #000000
+  }
+  
+@media (max-width: 600px) {
+    header img{
+      height: 20vh;
+    }
+    .btn-candela{
+        width: 25%; 
+    }
+  }

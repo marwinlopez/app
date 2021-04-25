@@ -1,0 +1,22 @@
+body{
+  background: #262629;
+
+}
+
+.contenedor{
+  /* position: fixed; */
+    margin: 0 auto;
+    width: 100%;
+}
+
+.promo{
+  width: 100%;
+  padding-top: 30px;
+}
+
+
+@media (max-width: 600px) {
+  .promo{
+      height: 130px;
+    } 
+}

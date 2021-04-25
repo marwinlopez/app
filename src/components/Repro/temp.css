@@ -1,0 +1,152 @@
+
+/* @media screen and (max-width: 576px) {
+  .footer {
+    padding: calc((100vh - 235px) / 2) calc((60vw) / 2);
+    background: url("../img/radio-logo-mobil.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
+}
+
+.footer-fixed {
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+  padding: 0;
+  background: url("../img/radio-logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition-property: all;
+  transition-duration: 0.7s;
+  transition-delay: 0.3s;
+}
+
+@media screen and (max-width: 576px) {
+  .footer-fixed {
+    background: url("../img/radio-logo-mobil.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
+}
+.footer-fixed::after {
+  padding: 0;
+  background: #d9d9d9 !important;
+} */
+
+.btn {
+    background: #e71e1e;
+    border: none;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 12px;
+    animation: mymove 5s;
+    animation-fill-mode: forwards;
+    /*transition: mymove 0.95s ease-in-out;
+     transition-property: width height;
+    transition-duration: 0.3s;
+    transition-delay: 0.1s; */
+  }
+  @keyframes mymove {
+    from {
+      width: 150px;
+      height: 150px;
+    }
+    50% {
+      width: 100px !important;
+      wiheightdth: 100px !important;
+    } /* ignored */
+    to {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  
+  .btn-fixed {
+    background: #141010;
+    border: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    line-height: 12px;
+    /* animation: mymove2 5s ease-in; */
+    /* transition: width 0.95s ease-in-out;
+    transition-property: width height;
+    transition-duration: 0.3s;
+    transition-delay: 0.1s; */
+  }
+  @keyframes mymove2 {
+    from {
+      top: 0px;
+    }
+    50% {
+      top: 100px !important;
+    } /* ignored */
+    to {
+      top: 200px;
+    }
+  }
+  .play {
+    font-size: 8rem;
+    color: "#FFFFFF";
+    animation: mymoveplay 5s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes mymoveplay {
+    from {
+      font-size: 8rem;
+    }
+    50% {
+      font-size: 4rem!important;
+    } /* ignored */
+    to {
+      font-size: 2.5rem;
+    }
+  }
+  .play-fixed {
+    font-size: 2.5rem;
+    color: "#FFFFFF";
+    animation: mymoveplayfixed 5s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes mymoveplayfixed {
+    from {
+      font-size: 8rem;
+    }
+    50% {
+      font-size: 4rem!important;
+    } /* ignored */
+    to {
+      font-size: 2.5rem;
+    }
+  }
+  .btn:hover {
+    background: #17364b;
+  }
+  
+  .btn.verde {
+    background: #00a04a;
+  }
+  
+  .btn.verde:hover {
+    background: #00833d;
+  }
+  
+  /*=================================
+          * Complementos *
+  ==================================*/
+  
+  .hidden {
+    display: none;
+  }
+  

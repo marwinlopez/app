@@ -1,0 +1,25 @@
+/* Style the header */
+header {
+    /* background-color: #6d1201; */
+    /* padding: 30px; */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#020925+0,6d1606+100 */
+  background: #010721; /* Old browsers */
+  background: -moz-linear-gradient(left,  #010721 0%, #6d1606 90%); 
+  background: -webkit-linear-gradient(left,  #010721 0%,#6d1606 90%); 
+  background: linear-gradient(to right,  #010721 0%,#6d1606 90%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#010721', endColorstr='#6d1606',GradientType=1 ); 
+  
+    text-align: center;
+    font-size: 15px;
+    color: white;
+  }
+  header img{
+    height: 25vh;
+    width: 60vw;
+  }
+  
+@media (max-width: 600px) {
+    header img{
+      height: 20vh;
+    }
+  }

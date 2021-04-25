@@ -1,0 +1,24 @@
+
+.container-publicidad{
+  padding-top: 15px;
+  text-align: center;
+
+}
+
+.posts-images{
+    width: 70vw;
+    height: 20vh;
+    margin: 0 auto;
+  } 
+
+  @media (max-width: 600px) {
+    .posts-images{
+        width: 100vw;
+        height: 12vh;
+        margin: 0 auto;
+      } 
+  }
+
+  .hidden{
+      display: none;
+  }
